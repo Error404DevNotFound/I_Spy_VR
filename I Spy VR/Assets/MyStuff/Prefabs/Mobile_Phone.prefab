@@ -10,27 +10,27 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 004f30c3438f5c54b8bd56579f0318ac, type: 3}
       propertyPath: m_LocalScale.x
-      value: -0.012449094
+      value: -0.020371698
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 004f30c3438f5c54b8bd56579f0318ac, type: 3}
       propertyPath: m_LocalScale.y
-      value: -0.012060798
+      value: -0.01973629
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 004f30c3438f5c54b8bd56579f0318ac, type: 3}
       propertyPath: m_LocalScale.z
-      value: -0.012958839
+      value: -0.021205842
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 004f30c3438f5c54b8bd56579f0318ac, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.00011
+      value: -0.0001769
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 004f30c3438f5c54b8bd56579f0318ac, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.00011
+      value: 0.0006176
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 004f30c3438f5c54b8bd56579f0318ac, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.01001
+      value: 0.010083
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 004f30c3438f5c54b8bd56579f0318ac, type: 3}
       propertyPath: m_LocalRotation.w
@@ -188,10 +188,13 @@ MonoBehaviour:
       m_Calls: []
   m_SelectEntered:
     m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8698277037517467161, guid: 5f2df36cad4ad4f4c883b8c1390bfbec, type: 3}
-        m_TargetAssemblyTypeName: remove_Parent, Assembly-CSharp
-        m_MethodName: disconnnect_Parent
+      - m_Target: {fileID: 8202165575575087913, guid: 33542f45c2c1c5a44a7a78c626fb8a10, type: 3}
+        m_TargetAssemblyTypeName: object_Positions, Assembly-CSharp
+        m_MethodName: positionSimilar
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -201,9 +204,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  m_SelectExited:
-    m_PersistentCalls:
-      m_Calls: []
   m_FirstFocusEntered:
     m_PersistentCalls:
       m_Calls: []
