@@ -84,6 +84,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 004f30c3438f5c54b8bd56579f0318ac, type: 3}
       insertIndex: -1
       addedObject: {fileID: 8620581859108150367}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 004f30c3438f5c54b8bd56579f0318ac, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7717060865366961550}
   m_SourcePrefab: {fileID: 100100000, guid: 004f30c3438f5c54b8bd56579f0318ac, type: 3}
 --- !u!1 &1117675374278408101 stripped
 GameObject:
@@ -192,8 +195,8 @@ MonoBehaviour:
   m_SelectExited:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8202165575575087913, guid: 33542f45c2c1c5a44a7a78c626fb8a10, type: 3}
-        m_TargetAssemblyTypeName: object_Positions, Assembly-CSharp
+      - m_Target: {fileID: 7717060865366961550}
+        m_TargetAssemblyTypeName: NewBehaviourScript, Assembly-CSharp
         m_MethodName: positionSimilar
         m_Mode: 1
         m_Arguments:
@@ -325,3 +328,16 @@ MonoBehaviour:
   m_MinimumScaleRatio: 0.25
   m_MaximumScaleRatio: 2
   m_ScaleMultiplier: 0.25
+--- !u!114 &7717060865366961550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1117675374278408101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e110cdfde059e7b4ab5986ba38a777e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectFound: {fileID: 1117675374278408101}
